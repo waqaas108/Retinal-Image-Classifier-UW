@@ -16,8 +16,6 @@ This project implements a CNN-based visual classifier for retinal images, focusi
 ## Introduction
 This project was carried out by Waqaas Akmal Butt, a Research Assistant at the He Lab, University of Chicago. The focus is on developing and optimizing CNN-based models for retinal image classification, leveraging attention mechanisms to enhance the performance of the classifier.
 
-![Model Architecture](path/to/your-image.png)
-
 ## Project Goals
 1. Determine the best hyperparameters for the CNN visual classifier.
 2. Augment the CNN with attention mechanisms (CBAM and Transformer).
@@ -107,13 +105,13 @@ Thresholds for the best-performing models were optimized using Youden’s Index:
 ![Threshold Optimization CM1](fig/cm_best.png)
 <small>Confusion matrix for the best model (CNNAttention) with optimized thresholds.</small>
 
-![Threshold Optimization Bar1](fig/bar_best.png)
+![Threshold Optimization Bar1](fig/bars_best.png)
 <small>Bar chart showing the improvement in sensitivity and specificity for the best model (CNNAttention) after threshold optimization.</small>
 
 ![Threshold Optimization CM2](fig/cm_sbest.png)
 <small>Confusion matrix for the second-best model (CNN) with optimized thresholds.</small>
 
-![Threshold Optimization Bar2](fig/bar_sbest.png)
+![Threshold Optimization Bar2](fig/bars_sbest.png)
 <small>Bar chart showing the improvement in sensitivity and specificity for the second-best model (CNN) after threshold optimization.</small>
 
 ![Threshold Optimization Model Comparison](fig/bars_comparison.png)
