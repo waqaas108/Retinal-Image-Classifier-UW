@@ -10,8 +10,7 @@ This project implements a CNN-based visual classifier for retinal images, focusi
 - [Hyperparameter Tuning](#hyperparameter-tuning)
 - [Performance](#performance)
 - [Threshold Optimization](#threshold-optimization)
-- [Usage](#usage)
-- [Acknowledgements](#acknowledgements)
+- [References](#references)
 
 ## Introduction
 This project was carried out by Waqaas Akmal Butt, a Research Assistant at the He Lab, University of Chicago. The focus is on developing and optimizing CNN-based models for retinal image classification, leveraging attention mechanisms to enhance the performance of the classifier.
