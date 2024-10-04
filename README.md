@@ -64,7 +64,7 @@ The images were transformed using techniques like `RandomHorizontalFlip`, `Rando
 The CNN was tuned for the following parameters:
 - Layers: [3, 5]
 - Filters: [32, 64]
-- Kernels: [3, 5, 7, 9, 13]
+- Kernels: [3, 5, 7]
 
 ![Hyperparameter Tuning](fig/hyper.png)
 
@@ -75,10 +75,6 @@ The CNN was tuned for the following parameters:
 - **AUC (ROC):** 0.9150
 - **AUC (PR):** 0.8236
 
-### Best Model (Attention Hybrid)
-- **AUC (ROC):** 0.913
-- **AUC (PR):** 0.818
-
 ## Performance
 ### Comparison with Attention Hybrids
 ![Comparison Chart](fig/augment.png)
@@ -87,7 +83,7 @@ The CNN was tuned for the following parameters:
 - Best model based on PR AUC: **CNNAttention (AUC = 0.818)**
 - Second-best model based on PR AUC: **CNN (AUC = 0.796)**
 
-### Classwise Sensitivity / 1-Specificity (Best CNN)
+### Classwise Sensitivity / 1-Specificity (Comparison)
 ![Classwise Sensitivity](fig/sensspec.png)
 Results were computed per class, with sensitivity and specificity metrics for the best-performing CNN and the attention-enhanced model.
 
