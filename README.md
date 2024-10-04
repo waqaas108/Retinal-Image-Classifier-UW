@@ -101,6 +101,7 @@ Thresholds for the best-performing models were optimized using Youden’s Index:
 | DR    | 0.3196                    | 0.0522                  |
 | G     | 0.1727                    | 0.1967                  |
 | N     | 0.1585                    | 0.3515                  |
+<small>Table with optimized thresholds for each class in both models.</small>
 
 ![Threshold Optimization CM1](fig/cm_best.png)
 <small>Confusion matrix for the best model (CNNAttention) with optimized thresholds.</small>
