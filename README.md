@@ -101,6 +101,7 @@ Thresholds for the best-performing models were optimized using Youden’s Index:
 | DR    | 0.3196                    | 0.0522                  |
 | G     | 0.1727                    | 0.1967                  |
 | N     | 0.1585                    | 0.3515                  |
+
 <small>Table with optimized thresholds for each class in both models.</small>
 
 ![Threshold Optimization CM1](fig/cm_best.png)
@@ -120,4 +121,5 @@ Thresholds for the best-performing models were optimized using Youden’s Index:
 
 ## References
 FIVES dataset: [https://figshare.com/articles/figure/FIVES_A_Fundus_Image_Dataset_for_AI-based_Vessel_Segmentation/19688169?file=34969398](https://figshare.com/articles/figure/FIVES_A_Fundus_Image_Dataset_for_AI-based_Vessel_Segmentation/19688169?file=34969398)
+
 VietAI dataset: [https://www.kaggle.com/competitions/vietai-advance-retinal-disease-detection-2020/data](https://www.kaggle.com/competitions/vietai-advance-retinal-disease-detection-2020/data)
